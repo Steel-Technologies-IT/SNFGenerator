@@ -1,0 +1,4050 @@
+{
+  "layout": [
+    {
+      "record_code": "CT",
+      "field_description": "RECORD TYPE INDICATOR (\"CT\")",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "CT",
+      "field_description": "Record Key (10-digit integer)",
+      "field_position": 3,
+      "field_length": 10
+    },
+    {
+      "record_code": "CT",
+      "field_description": "ISA Sender ID Qualifier",
+      "field_position": 13,
+      "field_length": 2
+    },
+    {
+      "record_code": "CT",
+      "field_description": "ISA Sender ID",
+      "field_position": 15,
+      "field_length": 15
+    },
+    {
+      "record_code": "CT",
+      "field_description": "GS Sender ID",
+      "field_position": 30,
+      "field_length": 15
+    },
+    {
+      "record_code": "CT",
+      "field_description": "ISA Control Number",
+      "field_position": 45,
+      "field_length": 9
+    },
+    {
+      "record_code": "CT",
+      "field_description": "GS Functional Group ID",
+      "field_position": 54,
+      "field_length": 6
+    },
+    {
+      "record_code": "CT",
+      "field_description": "GS Control Number",
+      "field_position": 60,
+      "field_length": 9
+    },
+    {
+      "record_code": "CT",
+      "field_description": "ISA Receiver ID Qualifier",
+      "field_position": 69,
+      "field_length": 2
+    },
+    {
+      "record_code": "CT",
+      "field_description": "ISA Receiver ID",
+      "field_position": 71,
+      "field_length": 15
+    },
+    {
+      "record_code": "CT",
+      "field_description": "GS Receiver ID",
+      "field_position": 86,
+      "field_length": 15
+    },
+    {
+      "record_code": "CT",
+      "field_description": "ST Control Number",
+      "field_position": 101,
+      "field_length": 9
+    },
+    {
+      "record_code": "CT",
+      "field_description": "ST Transaction Set ID",
+      "field_position": 110,
+      "field_length": 6
+    },
+    {
+      "record_code": "CT",
+      "field_description": "Plant ID Code Qualifier",
+      "field_position": 116,
+      "field_length": 2
+    },
+    {
+      "record_code": "CT",
+      "field_description": "Plant ID Code",
+      "field_position": 118,
+      "field_length": 30
+    },
+    {
+      "record_code": "CT",
+      "field_description": "Application System ID",
+      "field_position": 148,
+      "field_length": 10
+    },
+    {
+      "record_code": "CT",
+      "field_description": "Production/Test Flag",
+      "field_position": 158,
+      "field_length": 1
+    },
+    {
+      "record_code": "CT",
+      "field_description": "Type (T=Toll; M=Margin; D=Direct Ship)",
+      "field_position": 159,
+      "field_length": 1
+    },
+    {
+      "record_code": "5",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "5",
+      "field_description": "Purpose Code",
+      "field_position": 3,
+      "field_length": 2
+    },
+    {
+      "record_code": "5",
+      "field_description": "ASN Number",
+      "field_position": 5,
+      "field_length": 20
+    },
+    {
+      "record_code": "5",
+      "field_description": "ASN Date",
+      "field_position": 25,
+      "field_length": 8
+    },
+    {
+      "record_code": "5",
+      "field_description": "ASN Time",
+      "field_position": 33,
+      "field_length": 6
+    },
+    {
+      "record_code": "5",
+      "field_description": "Shipment Date",
+      "field_position": 39,
+      "field_length": 8
+    },
+    {
+      "record_code": "5",
+      "field_description": "Shipment Time",
+      "field_position": 47,
+      "field_length": 6
+    },
+    {
+      "record_code": "5",
+      "field_description": "Shipment Time Zone",
+      "field_position": 53,
+      "field_length": 2
+    },
+    {
+      "record_code": "5",
+      "field_description": "Secondary Date",
+      "field_position": 55,
+      "field_length": 8
+    },
+    {
+      "record_code": "5",
+      "field_description": "Secondary Time",
+      "field_position": 63,
+      "field_length": 6
+    },
+    {
+      "record_code": "5",
+      "field_description": "Secondary Time Zone",
+      "field_position": 69,
+      "field_length": 2
+    },
+    {
+      "record_code": "5",
+      "field_description": "Misc1",
+      "field_position": 71,
+      "field_length": 30
+    },
+    {
+      "record_code": "5",
+      "field_description": "Century",
+      "field_position": 101,
+      "field_length": 2
+    },
+    {
+      "record_code": "5",
+      "field_description": "Transaction Type",
+      "field_position": 103,
+      "field_length": 2
+    },
+    {
+      "record_code": "5",
+      "field_description": "SCAC",
+      "field_position": 105,
+      "field_length": 4
+    },
+    {
+      "record_code": "5",
+      "field_description": "Metric Flag",
+      "field_position": 109,
+      "field_length": 1
+    },
+    {
+      "record_code": "5",
+      "field_description": "Shipment Level UOM",
+      "field_position": 110,
+      "field_length": 2
+    },
+    {
+      "record_code": "5",
+      "field_description": "Order Level UOM",
+      "field_position": 112,
+      "field_length": 2
+    },
+    {
+      "record_code": "5",
+      "field_description": "Item Level UOM",
+      "field_position": 114,
+      "field_length": 2
+    },
+    {
+      "record_code": "5",
+      "field_description": "Equipment Description Code",
+      "field_position": 116,
+      "field_length": 2
+    },
+    {
+      "record_code": "5",
+      "field_description": "Daylight Savings Time Flag",
+      "field_position": 118,
+      "field_length": 1
+    },
+    {
+      "record_code": "10",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "10",
+      "field_description": "Ship HL ID",
+      "field_position": 3,
+      "field_length": 6
+    },
+    {
+      "record_code": "10",
+      "field_description": "HL Parent ID",
+      "field_position": 9,
+      "field_length": 6
+    },
+    {
+      "record_code": "10",
+      "field_description": "HL Level Code",
+      "field_position": 15,
+      "field_length": 2
+    },
+    {
+      "record_code": "10",
+      "field_description": "HL Child Code",
+      "field_position": 17,
+      "field_length": 1
+    },
+    {
+      "record_code": "10",
+      "field_description": "Supplier ID",
+      "field_position": 18,
+      "field_length": 17
+    },
+    {
+      "record_code": "10",
+      "field_description": "Ship From ID",
+      "field_position": 35,
+      "field_length": 17
+    },
+    {
+      "record_code": "10",
+      "field_description": "Ship To ID",
+      "field_position": 52,
+      "field_length": 17
+    },
+    {
+      "record_code": "10",
+      "field_description": "Consign Ship To",
+      "field_position": 69,
+      "field_length": 17
+    },
+    {
+      "record_code": "10",
+      "field_description": "Issuer BillTo",
+      "field_position": 86,
+      "field_length": 17
+    },
+    {
+      "record_code": "10",
+      "field_description": "Dock Code",
+      "field_position": 103,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Packing Slip",
+      "field_position": 123,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Bill of Lading",
+      "field_position": 143,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Freight Bill",
+      "field_position": 163,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Air Bill",
+      "field_position": 183,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Gross Wt Ref ID",
+      "field_position": 203,
+      "field_length": 2
+    },
+    {
+      "record_code": "10",
+      "field_description": "Gross Weight",
+      "field_position": 205,
+      "field_length": 10
+    },
+    {
+      "record_code": "10",
+      "field_description": "Gross Wt UM",
+      "field_position": 215,
+      "field_length": 4
+    },
+    {
+      "record_code": "10",
+      "field_description": "Net Wt Ref ID",
+      "field_position": 219,
+      "field_length": 2
+    },
+    {
+      "record_code": "10",
+      "field_description": "Net Weight",
+      "field_position": 221,
+      "field_length": 10
+    },
+    {
+      "record_code": "10",
+      "field_description": "Net Wt UM",
+      "field_position": 231,
+      "field_length": 4
+    },
+    {
+      "record_code": "10",
+      "field_description": "Equipment Code",
+      "field_position": 235,
+      "field_length": 2
+    },
+    {
+      "record_code": "10",
+      "field_description": "Equip SCAC Code",
+      "field_position": 237,
+      "field_length": 4
+    },
+    {
+      "record_code": "10",
+      "field_description": "Conveyance No",
+      "field_position": 241,
+      "field_length": 10
+    },
+    {
+      "record_code": "10",
+      "field_description": "Payment Method",
+      "field_position": 251,
+      "field_length": 2
+    },
+    {
+      "record_code": "10",
+      "field_description": "Trans Terms Cde",
+      "field_position": 253,
+      "field_length": 3
+    },
+    {
+      "record_code": "10",
+      "field_description": "Location Qual",
+      "field_position": 256,
+      "field_length": 2
+    },
+    {
+      "record_code": "10",
+      "field_description": "Excess Chg Cde",
+      "field_position": 258,
+      "field_length": 2
+    },
+    {
+      "record_code": "10",
+      "field_description": "Excess Chg Resp",
+      "field_position": 260,
+      "field_length": 1
+    },
+    {
+      "record_code": "10",
+      "field_description": "Excess Auth No",
+      "field_position": 261,
+      "field_length": 30
+    },
+    {
+      "record_code": "10",
+      "field_description": "Currency Cde",
+      "field_position": 291,
+      "field_length": 3
+    },
+    {
+      "record_code": "10",
+      "field_description": "Handling Charge",
+      "field_position": 294,
+      "field_length": 9
+    },
+    {
+      "record_code": "10",
+      "field_description": "Seal No1",
+      "field_position": 303,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Seal No2",
+      "field_position": 323,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Seal No3",
+      "field_position": 343,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Seal No4",
+      "field_position": 363,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Mst Bill Lading",
+      "field_position": 383,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Ship Auth No",
+      "field_position": 403,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Release No",
+      "field_position": 423,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Plant Code",
+      "field_position": 443,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Pro Invoice No",
+      "field_position": 463,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Tare Wt Ref ID",
+      "field_position": 483,
+      "field_length": 2
+    },
+    {
+      "record_code": "10",
+      "field_description": "Tare Weight",
+      "field_position": 485,
+      "field_length": 10
+    },
+    {
+      "record_code": "10",
+      "field_description": "Tare Wt UM",
+      "field_position": 495,
+      "field_length": 4
+    },
+    {
+      "record_code": "10",
+      "field_description": "Equip Own Code",
+      "field_position": 499,
+      "field_length": 1
+    },
+    {
+      "record_code": "10",
+      "field_description": "Total Qty Ship",
+      "field_position": 500,
+      "field_length": 10
+    },
+    {
+      "record_code": "10",
+      "field_description": "Dealer No",
+      "field_position": 510,
+      "field_length": 17
+    },
+    {
+      "record_code": "10",
+      "field_description": "Dealer Order No",
+      "field_position": 527,
+      "field_length": 17
+    },
+    {
+      "record_code": "10",
+      "field_description": "FOB",
+      "field_position": 544,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Current Exf Seq",
+      "field_position": 564,
+      "field_length": 20
+    },
+    {
+      "record_code": "10",
+      "field_description": "Domain",
+      "field_position": 584,
+      "field_length": 40
+    },
+    {
+      "record_code": "10",
+      "field_description": "Total Piece Count",
+      "field_position": 624,
+      "field_length": 8
+    },
+    {
+      "record_code": "10",
+      "field_description": "Count of Combined BOLs",
+      "field_position": 632,
+      "field_length": 10
+    },
+    {
+      "record_code": "10",
+      "field_description": "Responsible Party Alpha Code",
+      "field_position": 642,
+      "field_length": 6
+    },
+    {
+      "record_code": "10",
+      "field_description": "Responsible Party Number Code",
+      "field_position": 648,
+      "field_length": 6
+    },
+    {
+      "record_code": "10",
+      "field_description": "Alt UM Gross Weight",
+      "field_position": 654,
+      "field_length": 10
+    },
+    {
+      "record_code": "10",
+      "field_description": "Alt UM (for Gross Weight)",
+      "field_position": 664,
+      "field_length": 4
+    },
+    {
+      "record_code": "10",
+      "field_description": "Alt UM Net Weight",
+      "field_position": 668,
+      "field_length": 10
+    },
+    {
+      "record_code": "10",
+      "field_description": "Alt UM (for Net Weight)",
+      "field_position": 678,
+      "field_length": 4
+    },
+    {
+      "record_code": "10",
+      "field_description": "Alt UM Tare Weight",
+      "field_position": 682,
+      "field_length": 10
+    },
+    {
+      "record_code": "10",
+      "field_description": "Alt UM (for Tare Weight)",
+      "field_position": 692,
+      "field_length": 4
+    },
+    {
+      "record_code": "10",
+      "field_description": "Combined Load Total Tag Count",
+      "field_position": 696,
+      "field_length": 8
+    },
+    {
+      "record_code": "10",
+      "field_description": "Combined Load Total Weight",
+      "field_position": 704,
+      "field_length": 10
+    },
+    {
+      "record_code": "10",
+      "field_description": "Combined Load Total Weight UM",
+      "field_position": 714,
+      "field_length": 4
+    },
+    {
+      "record_code": "10",
+      "field_description": "Combined Load Total Piece Count",
+      "field_position": 718,
+      "field_length": 8
+    },
+    {
+      "record_code": "10",
+      "field_description": "Load Number",
+      "field_position": 726,
+      "field_length": 30
+    },
+    {
+      "record_code": "10",
+      "field_description": "Pieces in BOL (Y/N)",
+      "field_position": 756,
+      "field_length": 1
+    },
+    {
+      "record_code": "10",
+      "field_description": "CUSN Shipment Seq# for the Day",
+      "field_position": 757,
+      "field_length": 8
+    },
+    {
+      "record_code": "10",
+      "field_description": "CUSN Shipment Seq# for the Month",
+      "field_position": 765,
+      "field_length": 8
+    },
+    {
+      "record_code": "10",
+      "field_description": "XREF Shipment Seq# for the Day",
+      "field_position": 773,
+      "field_length": 8
+    },
+    {
+      "record_code": "10",
+      "field_description": "XREF Shipment Seq# for the Month",
+      "field_position": 781,
+      "field_length": 8
+    },
+    {
+      "record_code": "10",
+      "field_description": "Mill Order Number",
+      "field_position": 789,
+      "field_length": 22
+    },
+    {
+      "record_code": "10",
+      "field_description": "Owner's ID",
+      "field_position": 811,
+      "field_length": 17
+    },
+    {
+      "record_code": "10",
+      "field_description": "Manufacturer ID",
+      "field_position": 828,
+      "field_length": 17
+    },
+    {
+      "record_code": "11",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "11",
+      "field_description": "AddressTypeCode",
+      "field_position": 3,
+      "field_length": 2
+    },
+    {
+      "record_code": "11",
+      "field_description": "AddressNo",
+      "field_position": 5,
+      "field_length": 17
+    },
+    {
+      "record_code": "11",
+      "field_description": "Name",
+      "field_position": 22,
+      "field_length": 35
+    },
+    {
+      "record_code": "11",
+      "field_description": "Line1",
+      "field_position": 57,
+      "field_length": 55
+    },
+    {
+      "record_code": "11",
+      "field_description": "Line2",
+      "field_position": 112,
+      "field_length": 55
+    },
+    {
+      "record_code": "11",
+      "field_description": "Line3",
+      "field_position": 167,
+      "field_length": 35
+    },
+    {
+      "record_code": "11",
+      "field_description": "City",
+      "field_position": 202,
+      "field_length": 30
+    },
+    {
+      "record_code": "11",
+      "field_description": "State",
+      "field_position": 232,
+      "field_length": 2
+    },
+    {
+      "record_code": "11",
+      "field_description": "ZipCode",
+      "field_position": 234,
+      "field_length": 10
+    },
+    {
+      "record_code": "11",
+      "field_description": "CountryCode",
+      "field_position": 244,
+      "field_length": 2
+    },
+    {
+      "record_code": "11",
+      "field_description": "Country  ",
+      "field_position": 246,
+      "field_length": 25
+    },
+    {
+      "record_code": "11",
+      "field_description": "ContactName",
+      "field_position": 271,
+      "field_length": 35
+    },
+    {
+      "record_code": "11",
+      "field_description": "ContactPhone",
+      "field_position": 306,
+      "field_length": 21
+    },
+    {
+      "record_code": "11",
+      "field_description": "ContactFax",
+      "field_position": 327,
+      "field_length": 21
+    },
+    {
+      "record_code": "11",
+      "field_description": "ContactEmail",
+      "field_position": 348,
+      "field_length": 50
+    },
+    {
+      "record_code": "11",
+      "field_description": "Address ID Qualifier",
+      "field_position": 398,
+      "field_length": 2
+    },
+    {
+      "record_code": "12",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "12",
+      "field_description": "Container Type",
+      "field_position": 3,
+      "field_length": 5
+    },
+    {
+      "record_code": "12",
+      "field_description": "Number of Containers",
+      "field_position": 8,
+      "field_length": 7
+    },
+    {
+      "record_code": "12",
+      "field_description": "Units per Container",
+      "field_position": 15,
+      "field_length": 10
+    },
+    {
+      "record_code": "12",
+      "field_description": "Container Desc",
+      "field_position": 25,
+      "field_length": 50
+    },
+    {
+      "record_code": "12",
+      "field_description": "Weight Qual",
+      "field_position": 75,
+      "field_length": 2
+    },
+    {
+      "record_code": "12",
+      "field_description": "Weight",
+      "field_position": 77,
+      "field_length": 8
+    },
+    {
+      "record_code": "12",
+      "field_description": "Weight Uom",
+      "field_position": 85,
+      "field_length": 4
+    },
+    {
+      "record_code": "12",
+      "field_description": "Combined Load Total Tag Count",
+      "field_position": 89,
+      "field_length": 8
+    },
+    {
+      "record_code": "12",
+      "field_description": "Combined Load Total Weight",
+      "field_position": 97,
+      "field_length": 10
+    },
+    {
+      "record_code": "12",
+      "field_description": "Combined Load Total Weight UM",
+      "field_position": 107,
+      "field_length": 4
+    },
+    {
+      "record_code": "12",
+      "field_description": "Combined Load Total Piece Count",
+      "field_position": 111,
+      "field_length": 8
+    },
+    {
+      "record_code": "14",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "14",
+      "field_description": "Route Seq Code",
+      "field_position": 3,
+      "field_length": 2
+    },
+    {
+      "record_code": "14",
+      "field_description": "SCAC Code",
+      "field_position": 5,
+      "field_length": 4
+    },
+    {
+      "record_code": "14",
+      "field_description": "Transport Method",
+      "field_position": 9,
+      "field_length": 2
+    },
+    {
+      "record_code": "14",
+      "field_description": "Transport Route",
+      "field_position": 11,
+      "field_length": 35
+    },
+    {
+      "record_code": "14",
+      "field_description": "Location Qual",
+      "field_position": 46,
+      "field_length": 2
+    },
+    {
+      "record_code": "14",
+      "field_description": "Location ID",
+      "field_position": 48,
+      "field_length": 25
+    },
+    {
+      "record_code": "14",
+      "field_description": "Spec Hand Code",
+      "field_position": 73,
+      "field_length": 3
+    },
+    {
+      "record_code": "14",
+      "field_description": "Hazd Mat Code",
+      "field_position": 76,
+      "field_length": 1
+    },
+    {
+      "record_code": "14",
+      "field_description": "Hazd Mat Class",
+      "field_position": 77,
+      "field_length": 4
+    },
+    {
+      "record_code": "14",
+      "field_description": "Hazd Mat Desc",
+      "field_position": 81,
+      "field_length": 80
+    },
+    {
+      "record_code": "14",
+      "field_description": "Shipment/Order Status Code",
+      "field_position": 161,
+      "field_length": 2
+    },
+    {
+      "record_code": "15",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "15",
+      "field_description": "Chg Indicator",
+      "field_position": 3,
+      "field_length": 1
+    },
+    {
+      "record_code": "15",
+      "field_description": "Spec Svc Code",
+      "field_position": 4,
+      "field_length": 10
+    },
+    {
+      "record_code": "15",
+      "field_description": "Method Handling",
+      "field_position": 14,
+      "field_length": 2
+    },
+    {
+      "record_code": "15",
+      "field_description": "Charge No",
+      "field_position": 16,
+      "field_length": 16
+    },
+    {
+      "record_code": "15",
+      "field_description": "Charge Rate",
+      "field_position": 32,
+      "field_length": 10
+    },
+    {
+      "record_code": "15",
+      "field_description": "Total Amount",
+      "field_position": 42,
+      "field_length": 10
+    },
+    {
+      "record_code": "15",
+      "field_description": "Percent Qual",
+      "field_position": 52,
+      "field_length": 1
+    },
+    {
+      "record_code": "15",
+      "field_description": "Percentage",
+      "field_position": 53,
+      "field_length": 6
+    },
+    {
+      "record_code": "15",
+      "field_description": "Charge Qty",
+      "field_position": 59,
+      "field_length": 6
+    },
+    {
+      "record_code": "15",
+      "field_description": "Charge UOM",
+      "field_position": 65,
+      "field_length": 4
+    },
+    {
+      "record_code": "15",
+      "field_description": "Description",
+      "field_position": 69,
+      "field_length": 80
+    },
+    {
+      "record_code": "15",
+      "field_description": "Special Chg Code",
+      "field_position": 149,
+      "field_length": 3
+    },
+    {
+      "record_code": "20",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "20",
+      "field_description": "TareHL ID",
+      "field_position": 3,
+      "field_length": 6
+    },
+    {
+      "record_code": "20",
+      "field_description": "HL Parent ID",
+      "field_position": 9,
+      "field_length": 6
+    },
+    {
+      "record_code": "20",
+      "field_description": "HL Level Code",
+      "field_position": 15,
+      "field_length": 2
+    },
+    {
+      "record_code": "20",
+      "field_description": "HL Child Code",
+      "field_position": 17,
+      "field_length": 1
+    },
+    {
+      "record_code": "22",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "22",
+      "field_description": "Tare Cont Type",
+      "field_position": 3,
+      "field_length": 30
+    },
+    {
+      "record_code": "22",
+      "field_description": "Number of Containers",
+      "field_position": 33,
+      "field_length": 7
+    },
+    {
+      "record_code": "22",
+      "field_description": "Units per Container",
+      "field_position": 40,
+      "field_length": 10
+    },
+    {
+      "record_code": "22",
+      "field_description": "Container Desc",
+      "field_position": 50,
+      "field_length": 50
+    },
+    {
+      "record_code": "22",
+      "field_description": "Weight",
+      "field_position": 100,
+      "field_length": 10
+    },
+    {
+      "record_code": "22",
+      "field_description": "Weight UOM",
+      "field_position": 110,
+      "field_length": 4
+    },
+    {
+      "record_code": "22",
+      "field_description": "Length",
+      "field_position": 114,
+      "field_length": 10
+    },
+    {
+      "record_code": "22",
+      "field_description": "Width",
+      "field_position": 124,
+      "field_length": 10
+    },
+    {
+      "record_code": "22",
+      "field_description": "Height",
+      "field_position": 134,
+      "field_length": 10
+    },
+    {
+      "record_code": "22",
+      "field_description": "Size UOM",
+      "field_position": 144,
+      "field_length": 4
+    },
+    {
+      "record_code": "26",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "26",
+      "field_description": "Label Serial No",
+      "field_position": 3,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Cont Serial No",
+      "field_position": 23,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Non Modular Cont",
+      "field_position": 43,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Release No",
+      "field_position": 63,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Cust Order No",
+      "field_position": 83,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Cust Ref No",
+      "field_position": 103,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "No Units Shipped",
+      "field_position": 123,
+      "field_length": 10
+    },
+    {
+      "record_code": "26",
+      "field_description": "UnitOfMea",
+      "field_position": 133,
+      "field_length": 4
+    },
+    {
+      "record_code": "26",
+      "field_description": "Container Type",
+      "field_position": 137,
+      "field_length": 30
+    },
+    {
+      "record_code": "26",
+      "field_description": "Range From1",
+      "field_position": 167,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Range To1",
+      "field_position": 187,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Range From2",
+      "field_position": 207,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Range To2",
+      "field_position": 227,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Range From3",
+      "field_position": 247,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Range To3",
+      "field_position": 267,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Range From4",
+      "field_position": 287,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Range To4",
+      "field_position": 307,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Range From5",
+      "field_position": 327,
+      "field_length": 20
+    },
+    {
+      "record_code": "26",
+      "field_description": "Range To5",
+      "field_position": 347,
+      "field_length": 20
+    },
+    {
+      "record_code": "30",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "30",
+      "field_description": "Order HL ID",
+      "field_position": 3,
+      "field_length": 6
+    },
+    {
+      "record_code": "30",
+      "field_description": "HL Parent ID",
+      "field_position": 9,
+      "field_length": 6
+    },
+    {
+      "record_code": "30",
+      "field_description": "HL Level Code",
+      "field_position": 15,
+      "field_length": 2
+    },
+    {
+      "record_code": "30",
+      "field_description": "HL Child Code",
+      "field_position": 17,
+      "field_length": 1
+    },
+    {
+      "record_code": "30",
+      "field_description": "Line Item No",
+      "field_position": 18,
+      "field_length": 6
+    },
+    {
+      "record_code": "30",
+      "field_description": "Part Qualifier",
+      "field_position": 24,
+      "field_length": 2
+    },
+    {
+      "record_code": "30",
+      "field_description": "Customer Part No",
+      "field_position": 26,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "PO No",
+      "field_position": 56,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "PO Date",
+      "field_position": 78,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Net Qty Shipped",
+      "field_position": 88,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Qty UOM",
+      "field_position": 98,
+      "field_length": 4
+    },
+    {
+      "record_code": "30",
+      "field_description": "Cum Qty Shipped",
+      "field_position": 102,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Alt Part Qual",
+      "field_position": 112,
+      "field_length": 2
+    },
+    {
+      "record_code": "30",
+      "field_description": "Alt Part No",
+      "field_position": 114,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "Model Year",
+      "field_position": 144,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "Qty Ordered",
+      "field_position": 174,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Qty Ordered UOM",
+      "field_position": 184,
+      "field_length": 4
+    },
+    {
+      "record_code": "30",
+      "field_description": "Release No",
+      "field_position": 188,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "Contract No",
+      "field_position": 218,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "Packing Slip No",
+      "field_position": 248,
+      "field_length": 20
+    },
+    {
+      "record_code": "30",
+      "field_description": "Bill Lading No",
+      "field_position": 268,
+      "field_length": 20
+    },
+    {
+      "record_code": "30",
+      "field_description": "Ship To",
+      "field_position": 288,
+      "field_length": 17
+    },
+    {
+      "record_code": "30",
+      "field_description": "Final Dest",
+      "field_position": 305,
+      "field_length": 17
+    },
+    {
+      "record_code": "30",
+      "field_description": "Dock Code",
+      "field_position": 322,
+      "field_length": 20
+    },
+    {
+      "record_code": "30",
+      "field_description": "Excess Chg Code",
+      "field_position": 342,
+      "field_length": 2
+    },
+    {
+      "record_code": "30",
+      "field_description": "Excess Chg Resp",
+      "field_position": 344,
+      "field_length": 1
+    },
+    {
+      "record_code": "30",
+      "field_description": "Excess Auth No",
+      "field_position": 345,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "Excess Amount",
+      "field_position": 375,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Engineering Change No",
+      "field_position": 385,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "Mill Order Number",
+      "field_position": 415,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "Mill Order Line",
+      "field_position": 437,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Customer PO Release Number",
+      "field_position": 447,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "Customer PO Line Number",
+      "field_position": 469,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Ultimate Customer PO Number",
+      "field_position": 479,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "Order Total Pieces",
+      "field_position": 501,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Order Total Weight (LB)",
+      "field_position": 511,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Order Total Weight (KG)",
+      "field_position": 521,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Pieces in Detail (Y/N)",
+      "field_position": 531,
+      "field_length": 1
+    },
+    {
+      "record_code": "30",
+      "field_description": "Prior Cumulative Piece Count",
+      "field_position": 532,
+      "field_length": 15
+    },
+    {
+      "record_code": "30",
+      "field_description": "Prior Cumulative Weight (LB)",
+      "field_position": 547,
+      "field_length": 15
+    },
+    {
+      "record_code": "30",
+      "field_description": "Prior Cumulative Weight (KG)",
+      "field_position": 562,
+      "field_length": 15
+    },
+    {
+      "record_code": "30",
+      "field_description": "New Cumulative Piece Count",
+      "field_position": 577,
+      "field_length": 15
+    },
+    {
+      "record_code": "30",
+      "field_description": "New Cumulative Weight (LB)",
+      "field_position": 592,
+      "field_length": 15
+    },
+    {
+      "record_code": "30",
+      "field_description": "New Cumulative Weight (KG)",
+      "field_position": 607,
+      "field_length": 15
+    },
+    {
+      "record_code": "30",
+      "field_description": "Change Order Sequence Number",
+      "field_position": 622,
+      "field_length": 8
+    },
+    {
+      "record_code": "30",
+      "field_description": "Special Data 1",
+      "field_position": 630,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "Special Data 2",
+      "field_position": 660,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "Responsible Party Alpha Code",
+      "field_position": 690,
+      "field_length": 6
+    },
+    {
+      "record_code": "30",
+      "field_description": "Responsible Party Number Code",
+      "field_position": 696,
+      "field_length": 6
+    },
+    {
+      "record_code": "30",
+      "field_description": "Override Part Number",
+      "field_position": 702,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "Override Customer PO#",
+      "field_position": 732,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "Override Supplier ID",
+      "field_position": 754,
+      "field_length": 15
+    },
+    {
+      "record_code": "30",
+      "field_description": "Ship-To Customer PO#",
+      "field_position": 769,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "Ship-To Customer PO Line#",
+      "field_position": 791,
+      "field_length": 20
+    },
+    {
+      "record_code": "30",
+      "field_description": "Cust PO# (Shop)",
+      "field_position": 811,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "Cust Release# (Shop)",
+      "field_position": 833,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "Cust Release# (Mtl Rls)",
+      "field_position": 863,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "REF*PO from Inb856 (to be sent back)",
+      "field_position": 893,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "Part Description (Shop)",
+      "field_position": 915,
+      "field_length": 48
+    },
+    {
+      "record_code": "30",
+      "field_description": "Internal (Shop) Order Number",
+      "field_position": 963,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "Part Total Pieces",
+      "field_position": 985,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Part Total Weight (LB)",
+      "field_position": 995,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "Part Total Weight (KG)",
+      "field_position": 1005,
+      "field_length": 10
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I830-PS) Purchase Order#",
+      "field_position": 1015,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I830-PS) Purchase Order Line#",
+      "field_position": 1037,
+      "field_length": 20
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I830-PS) Release#",
+      "field_position": 1057,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I830-PS) Engineering Change#",
+      "field_position": 1087,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I830-PS) MSA#",
+      "field_position": 1117,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I830-PS) Create Date",
+      "field_position": 1147,
+      "field_length": 8
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I830-PS) Create Time",
+      "field_position": 1155,
+      "field_length": 4
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Purchase Order#",
+      "field_position": 1159,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Purchase Order Line#",
+      "field_position": 1181,
+      "field_length": 20
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Release#",
+      "field_position": 1201,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Engineering Change#",
+      "field_position": 1231,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) MSA#",
+      "field_position": 1261,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Company Part#",
+      "field_position": 1291,
+      "field_length": 48
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Returnable Container#",
+      "field_position": 1339,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) HES Code",
+      "field_position": 1369,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Prev Customer Reference",
+      "field_position": 1399,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Create Date",
+      "field_position": 1429,
+      "field_length": 8
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Create Time",
+      "field_position": 1437,
+      "field_length": 4
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I830-PS) Delivery Order Number",
+      "field_position": 1441,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Delivery Order Number",
+      "field_position": 1471,
+      "field_length": 30
+    },
+    {
+      "record_code": "30",
+      "field_description": "Commodity Code",
+      "field_position": 1501,
+      "field_length": 2
+    },
+    {
+      "record_code": "30",
+      "field_description": "Sold-To Customer PO# (from Mtl rls file)",
+      "field_position": 1503,
+      "field_length": 22
+    },
+    {
+      "record_code": "30",
+      "field_description": "Sold-To PO Line# (from Mtl rls file)",
+      "field_position": 1525,
+      "field_length": 20
+    },
+    {
+      "record_code": "30",
+      "field_description": "Country of origin (cast)",
+      "field_position": 1545,
+      "field_length": 3
+    },
+    {
+      "record_code": "30",
+      "field_description": "Primary Country of Smelt",
+      "field_position": 1548,
+      "field_length": 3
+    },
+    {
+      "record_code": "30",
+      "field_description": "Secondary Country of Smelt",
+      "field_position": 1551,
+      "field_length": 3
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Bill of Lading I862 REF*BM",
+      "field_position": 1554,
+      "field_length": 20
+    },
+    {
+      "record_code": "30",
+      "field_description": "(I862-SS) Delivery reference number",
+      "field_position": 1574,
+      "field_length": 30
+    },
+    {
+      "record_code": "35",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "35",
+      "field_description": "TareHL ID",
+      "field_position": 3,
+      "field_length": 6
+    },
+    {
+      "record_code": "35",
+      "field_description": "HL Parent ID",
+      "field_position": 9,
+      "field_length": 6
+    },
+    {
+      "record_code": "35",
+      "field_description": "HL Level Code",
+      "field_position": 15,
+      "field_length": 2
+    },
+    {
+      "record_code": "35",
+      "field_description": "HL Child Code",
+      "field_position": 17,
+      "field_length": 1
+    },
+    {
+      "record_code": "35",
+      "field_description": "Tare Cont Type",
+      "field_position": 18,
+      "field_length": 30
+    },
+    {
+      "record_code": "35",
+      "field_description": "Number of Containers",
+      "field_position": 48,
+      "field_length": 7
+    },
+    {
+      "record_code": "35",
+      "field_description": "Units per Container",
+      "field_position": 55,
+      "field_length": 10
+    },
+    {
+      "record_code": "35",
+      "field_description": "Container Desc",
+      "field_position": 65,
+      "field_length": 50
+    },
+    {
+      "record_code": "35",
+      "field_description": "Weight",
+      "field_position": 115,
+      "field_length": 10
+    },
+    {
+      "record_code": "35",
+      "field_description": "Weight Uom",
+      "field_position": 125,
+      "field_length": 4
+    },
+    {
+      "record_code": "35",
+      "field_description": "Length",
+      "field_position": 129,
+      "field_length": 10
+    },
+    {
+      "record_code": "35",
+      "field_description": "Width",
+      "field_position": 139,
+      "field_length": 10
+    },
+    {
+      "record_code": "35",
+      "field_description": "Height",
+      "field_position": 149,
+      "field_length": 10
+    },
+    {
+      "record_code": "35",
+      "field_description": "Size Uom",
+      "field_position": 159,
+      "field_length": 4
+    },
+    {
+      "record_code": "40",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "40",
+      "field_description": "Item HL ID",
+      "field_position": 3,
+      "field_length": 6
+    },
+    {
+      "record_code": "40",
+      "field_description": "HL Parent ID",
+      "field_position": 9,
+      "field_length": 6
+    },
+    {
+      "record_code": "40",
+      "field_description": "HL Level Code",
+      "field_position": 15,
+      "field_length": 2
+    },
+    {
+      "record_code": "40",
+      "field_description": "HL Child Code",
+      "field_position": 17,
+      "field_length": 1
+    },
+    {
+      "record_code": "40",
+      "field_description": "Line No",
+      "field_position": 18,
+      "field_length": 6
+    },
+    {
+      "record_code": "40",
+      "field_description": "Mill Coil Number Qual",
+      "field_position": 24,
+      "field_length": 2
+    },
+    {
+      "record_code": "40",
+      "field_description": "Mill Coil Number",
+      "field_position": 26,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Heat Number Qual",
+      "field_position": 56,
+      "field_length": 2
+    },
+    {
+      "record_code": "40",
+      "field_description": "Heat Number",
+      "field_position": 58,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Grade Code Qual",
+      "field_position": 88,
+      "field_length": 2
+    },
+    {
+      "record_code": "40",
+      "field_description": "Grade Code",
+      "field_position": 90,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Previous/Processor Tag Nbr Qual",
+      "field_position": 120,
+      "field_length": 2
+    },
+    {
+      "record_code": "40",
+      "field_description": "Previous/Processor Tag Nbr",
+      "field_position": 122,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Part Qual5",
+      "field_position": 152,
+      "field_length": 2
+    },
+    {
+      "record_code": "40",
+      "field_description": "Part Number5",
+      "field_position": 154,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Net Qty Ship",
+      "field_position": 184,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Qty UOM",
+      "field_position": 194,
+      "field_length": 4
+    },
+    {
+      "record_code": "40",
+      "field_description": "Cum Qty Ship",
+      "field_position": 198,
+      "field_length": 9
+    },
+    {
+      "record_code": "40",
+      "field_description": "PO No",
+      "field_position": 207,
+      "field_length": 22
+    },
+    {
+      "record_code": "40",
+      "field_description": "PO Date",
+      "field_position": 229,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "PO Line No",
+      "field_position": 239,
+      "field_length": 11
+    },
+    {
+      "record_code": "40",
+      "field_description": "No of Inner Packs",
+      "field_position": 250,
+      "field_length": 6
+    },
+    {
+      "record_code": "40",
+      "field_description": "Units per Ipack",
+      "field_position": 256,
+      "field_length": 8
+    },
+    {
+      "record_code": "40",
+      "field_description": "Inner Pack UOM",
+      "field_position": 264,
+      "field_length": 4
+    },
+    {
+      "record_code": "40",
+      "field_description": "Packing Slip No",
+      "field_position": 268,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Release No",
+      "field_position": 298,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Bill Wt Ref ID",
+      "field_position": 328,
+      "field_length": 2
+    },
+    {
+      "record_code": "40",
+      "field_description": "Billed Weight",
+      "field_position": 330,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Billed Wt UM",
+      "field_position": 340,
+      "field_length": 4
+    },
+    {
+      "record_code": "40",
+      "field_description": "Gross Wt Ref ID",
+      "field_position": 344,
+      "field_length": 2
+    },
+    {
+      "record_code": "40",
+      "field_description": "Gross Weight",
+      "field_position": 346,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Gross Wt UM",
+      "field_position": 356,
+      "field_length": 4
+    },
+    {
+      "record_code": "40",
+      "field_description": "Net Wt Ref ID",
+      "field_position": 360,
+      "field_length": 2
+    },
+    {
+      "record_code": "40",
+      "field_description": "Net Weight",
+      "field_position": 362,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Net Wt UM",
+      "field_position": 372,
+      "field_length": 4
+    },
+    {
+      "record_code": "40",
+      "field_description": "Buyer Code",
+      "field_position": 376,
+      "field_length": 20
+    },
+    {
+      "record_code": "40",
+      "field_description": "Qty Ordered",
+      "field_position": 396,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Qty Ordered UM",
+      "field_position": 406,
+      "field_length": 4
+    },
+    {
+      "record_code": "40",
+      "field_description": "Dock Code",
+      "field_position": 410,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Invoice No",
+      "field_position": 440,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Model Year",
+      "field_position": 470,
+      "field_length": 4
+    },
+    {
+      "record_code": "40",
+      "field_description": "Part Description",
+      "field_position": 474,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Cum Qty Start",
+      "field_position": 504,
+      "field_length": 9
+    },
+    {
+      "record_code": "40",
+      "field_description": "Container Type Code",
+      "field_position": 513,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Material Classification (AISI table 67)",
+      "field_position": 523,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Material Status - QA (AISI table 68)",
+      "field_position": 533,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Material Status (AISI table 70)",
+      "field_position": 543,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Edge Designation (AISI table 22)",
+      "field_position": 553,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Matl Specification Application Nbr",
+      "field_position": 563,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "(STTX) Tag Type",
+      "field_position": 593,
+      "field_length": 3
+    },
+    {
+      "record_code": "40",
+      "field_description": "(STTX) Tag Number",
+      "field_position": 596,
+      "field_length": 20
+    },
+    {
+      "record_code": "40",
+      "field_description": "RAN Number",
+      "field_position": 616,
+      "field_length": 20
+    },
+    {
+      "record_code": "40",
+      "field_description": "RAN Release Number",
+      "field_position": 636,
+      "field_length": 15
+    },
+    {
+      "record_code": "40",
+      "field_description": "Kanban Number",
+      "field_position": 651,
+      "field_length": 20
+    },
+    {
+      "record_code": "40",
+      "field_description": "Prior Cumulative Piece Count",
+      "field_position": 671,
+      "field_length": 15
+    },
+    {
+      "record_code": "40",
+      "field_description": "Prior Cumulative Weight (LB)",
+      "field_position": 686,
+      "field_length": 15
+    },
+    {
+      "record_code": "40",
+      "field_description": "Prior Cumulative Weight (KG)",
+      "field_position": 701,
+      "field_length": 15
+    },
+    {
+      "record_code": "40",
+      "field_description": "New Cumulative Piece Count",
+      "field_position": 716,
+      "field_length": 15
+    },
+    {
+      "record_code": "40",
+      "field_description": "New Cumulative Weight (LB)",
+      "field_position": 731,
+      "field_length": 15
+    },
+    {
+      "record_code": "40",
+      "field_description": "New Cumulative Weight (KG)",
+      "field_position": 746,
+      "field_length": 15
+    },
+    {
+      "record_code": "40",
+      "field_description": "Change Order Sequence Number",
+      "field_position": 761,
+      "field_length": 8
+    },
+    {
+      "record_code": "40",
+      "field_description": "Cust PO# (Bundle Tag/FG Override)",
+      "field_position": 769,
+      "field_length": 22
+    },
+    {
+      "record_code": "40",
+      "field_description": "Cust Rls# (Bundle Tag/FG Override)",
+      "field_position": 791,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Mill Create Date",
+      "field_position": 821,
+      "field_length": 8
+    },
+    {
+      "record_code": "40",
+      "field_description": "Original Shipper's BOL Nbr",
+      "field_position": 829,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "(STTX) Production Number",
+      "field_position": 859,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Serial Build FG Tag ID",
+      "field_position": 889,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Source Mill",
+      "field_position": 919,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Original I856 Gauge (IN)",
+      "field_position": 949,
+      "field_length": 20
+    },
+    {
+      "record_code": "40",
+      "field_description": "Original I856 Gauge (MM)",
+      "field_position": 969,
+      "field_length": 20
+    },
+    {
+      "record_code": "40",
+      "field_description": "Original I856 Gauge Type",
+      "field_position": 989,
+      "field_length": 3
+    },
+    {
+      "record_code": "40",
+      "field_description": "Item Mill Order Number",
+      "field_position": 992,
+      "field_length": 22
+    },
+    {
+      "record_code": "40",
+      "field_description": "Price/CWT Adjust",
+      "field_position": 1014,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Heat Treat (Cash) Date",
+      "field_position": 1024,
+      "field_length": 8
+    },
+    {
+      "record_code": "40",
+      "field_description": "Lube Application Date",
+      "field_position": 1032,
+      "field_length": 8
+    },
+    {
+      "record_code": "40",
+      "field_description": "Bake Hardening Date",
+      "field_position": 1040,
+      "field_length": 8
+    },
+    {
+      "record_code": "40",
+      "field_description": "Consumed Coil ID",
+      "field_position": 1048,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "License Plate Number ",
+      "field_position": 1078,
+      "field_length": 50
+    },
+    {
+      "record_code": "40",
+      "field_description": "Temper",
+      "field_position": 1128,
+      "field_length": 10
+    },
+    {
+      "record_code": "40",
+      "field_description": "Customer tag number ",
+      "field_position": 1138,
+      "field_length": 50
+    },
+    {
+      "record_code": "40",
+      "field_description": "Load Planning From INB 860/850",
+      "field_position": 1188,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Release# from INB 860/850",
+      "field_position": 1218,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "PO Date from INB 860/850",
+      "field_position": 1248,
+      "field_length": 8
+    },
+    {
+      "record_code": "40",
+      "field_description": "Line# from INB 860/850",
+      "field_position": 1256,
+      "field_length": 4
+    },
+    {
+      "record_code": "40",
+      "field_description": "Part# from INB 860/850",
+      "field_position": 1260,
+      "field_length": 30
+    },
+    {
+      "record_code": "40",
+      "field_description": "Alternate Part# from INB 860/850",
+      "field_position": 1290,
+      "field_length": 48
+    },
+    {
+      "record_code": "40",
+      "field_description": "Country of origin (cast)",
+      "field_position": 1338,
+      "field_length": 3
+    },
+    {
+      "record_code": "40",
+      "field_description": "Primary Country of Smelt",
+      "field_position": 1341,
+      "field_length": 3
+    },
+    {
+      "record_code": "40",
+      "field_description": "Secondary Country of Smelt",
+      "field_position": 1344,
+      "field_length": 3
+    },
+    {
+      "record_code": "41",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual1",
+      "field_position": 3,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container1",
+      "field_position": 5,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty1",
+      "field_position": 35,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual2",
+      "field_position": 43,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container2",
+      "field_position": 45,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty2",
+      "field_position": 75,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual3",
+      "field_position": 83,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container3",
+      "field_position": 85,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty3",
+      "field_position": 115,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual4",
+      "field_position": 123,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container4",
+      "field_position": 125,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty4",
+      "field_position": 155,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual5",
+      "field_position": 163,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container5",
+      "field_position": 165,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty5",
+      "field_position": 195,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual6",
+      "field_position": 203,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container6",
+      "field_position": 205,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty6",
+      "field_position": 235,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual7",
+      "field_position": 243,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container7",
+      "field_position": 245,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty7",
+      "field_position": 275,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual8",
+      "field_position": 283,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container8",
+      "field_position": 285,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty8",
+      "field_position": 315,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual9",
+      "field_position": 323,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container9",
+      "field_position": 325,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty9",
+      "field_position": 355,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual10",
+      "field_position": 363,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container10",
+      "field_position": 365,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty10",
+      "field_position": 395,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual11",
+      "field_position": 403,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container11",
+      "field_position": 405,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty11",
+      "field_position": 435,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual12",
+      "field_position": 443,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container12",
+      "field_position": 445,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty12",
+      "field_position": 475,
+      "field_length": 8
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qual13",
+      "field_position": 483,
+      "field_length": 2
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Container13",
+      "field_position": 485,
+      "field_length": 30
+    },
+    {
+      "record_code": "41",
+      "field_description": "Ret Cont Qty13",
+      "field_position": 515,
+      "field_length": 8
+    },
+    {
+      "record_code": "42",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "42",
+      "field_description": "Container Type",
+      "field_position": 3,
+      "field_length": 5
+    },
+    {
+      "record_code": "42",
+      "field_description": "Number of Containers",
+      "field_position": 8,
+      "field_length": 7
+    },
+    {
+      "record_code": "42",
+      "field_description": "Units per Container",
+      "field_position": 15,
+      "field_length": 10
+    },
+    {
+      "record_code": "42",
+      "field_description": "Container Desc",
+      "field_position": 25,
+      "field_length": 50
+    },
+    {
+      "record_code": "46",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "46",
+      "field_description": "Label Serial No",
+      "field_position": 3,
+      "field_length": 20
+    },
+    {
+      "record_code": "46",
+      "field_description": "Cont Serial No",
+      "field_position": 23,
+      "field_length": 20
+    },
+    {
+      "record_code": "46",
+      "field_description": "Non Modular Cont",
+      "field_position": 43,
+      "field_length": 20
+    },
+    {
+      "record_code": "46",
+      "field_description": "Release No",
+      "field_position": 63,
+      "field_length": 20
+    },
+    {
+      "record_code": "46",
+      "field_description": "Cust Order No",
+      "field_position": 83,
+      "field_length": 20
+    },
+    {
+      "record_code": "46",
+      "field_description": "Cust Ref No",
+      "field_position": 103,
+      "field_length": 20
+    },
+    {
+      "record_code": "46",
+      "field_description": "Line Feed",
+      "field_position": 123,
+      "field_length": 30
+    },
+    {
+      "record_code": "48",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "48",
+      "field_description": "Chg Indicator",
+      "field_position": 3,
+      "field_length": 1
+    },
+    {
+      "record_code": "48",
+      "field_description": "Spec Srvc Code",
+      "field_position": 4,
+      "field_length": 10
+    },
+    {
+      "record_code": "48",
+      "field_description": "Method Handling",
+      "field_position": 14,
+      "field_length": 2
+    },
+    {
+      "record_code": "48",
+      "field_description": "Charge No",
+      "field_position": 16,
+      "field_length": 16
+    },
+    {
+      "record_code": "48",
+      "field_description": "Charge Rate",
+      "field_position": 32,
+      "field_length": 10
+    },
+    {
+      "record_code": "48",
+      "field_description": "Total Amt",
+      "field_position": 42,
+      "field_length": 10
+    },
+    {
+      "record_code": "48",
+      "field_description": "Percent Qual",
+      "field_position": 52,
+      "field_length": 1
+    },
+    {
+      "record_code": "48",
+      "field_description": "Percentage",
+      "field_position": 53,
+      "field_length": 6
+    },
+    {
+      "record_code": "48",
+      "field_description": "Charge Qty",
+      "field_position": 59,
+      "field_length": 6
+    },
+    {
+      "record_code": "48",
+      "field_description": "Charge UM",
+      "field_position": 65,
+      "field_length": 4
+    },
+    {
+      "record_code": "48",
+      "field_description": "Description",
+      "field_position": 69,
+      "field_length": 80
+    },
+    {
+      "record_code": "48",
+      "field_description": "Special Chg Code",
+      "field_position": 149,
+      "field_length": 3
+    },
+    {
+      "record_code": "49",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "49",
+      "field_description": "Measurement Reference",
+      "field_position": 3,
+      "field_length": 2
+    },
+    {
+      "record_code": "49",
+      "field_description": "Measurement Qualifier",
+      "field_position": 5,
+      "field_length": 3
+    },
+    {
+      "record_code": "49",
+      "field_description": "Measurement Flag",
+      "field_position": 8,
+      "field_length": 1
+    },
+    {
+      "record_code": "49",
+      "field_description": "Measurement Value",
+      "field_position": 9,
+      "field_length": 18
+    },
+    {
+      "record_code": "49",
+      "field_description": "Measurement UOM",
+      "field_position": 27,
+      "field_length": 2
+    },
+    {
+      "record_code": "50",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "50",
+      "field_description": "HL ID No",
+      "field_position": 3,
+      "field_length": 6
+    },
+    {
+      "record_code": "50",
+      "field_description": "HL Parent ID",
+      "field_position": 9,
+      "field_length": 6
+    },
+    {
+      "record_code": "50",
+      "field_description": "HL Level Code",
+      "field_position": 15,
+      "field_length": 2
+    },
+    {
+      "record_code": "50",
+      "field_description": "HL Child Code",
+      "field_position": 17,
+      "field_length": 1
+    },
+    {
+      "record_code": "50",
+      "field_description": "Line Item No",
+      "field_position": 18,
+      "field_length": 6
+    },
+    {
+      "record_code": "50",
+      "field_description": "Customer Part No",
+      "field_position": 24,
+      "field_length": 30
+    },
+    {
+      "record_code": "50",
+      "field_description": "Net Qty Shipped",
+      "field_position": 54,
+      "field_length": 10
+    },
+    {
+      "record_code": "50",
+      "field_description": "Qty UM",
+      "field_position": 64,
+      "field_length": 4
+    },
+    {
+      "record_code": "50",
+      "field_description": "Cum Qty Shipped",
+      "field_position": 68,
+      "field_length": 10
+    },
+    {
+      "record_code": "50",
+      "field_description": "Qty Per Container   ",
+      "field_position": 78,
+      "field_length": 10
+    },
+    {
+      "record_code": "50",
+      "field_description": "Weight              ",
+      "field_position": 88,
+      "field_length": 10
+    },
+    {
+      "record_code": "50",
+      "field_description": "Weight UOM          ",
+      "field_position": 98,
+      "field_length": 4
+    },
+    {
+      "record_code": "50",
+      "field_description": "Length              ",
+      "field_position": 102,
+      "field_length": 10
+    },
+    {
+      "record_code": "50",
+      "field_description": "Width               ",
+      "field_position": 112,
+      "field_length": 10
+    },
+    {
+      "record_code": "50",
+      "field_description": "Height              ",
+      "field_position": 122,
+      "field_length": 10
+    },
+    {
+      "record_code": "50",
+      "field_description": "Size UOM            ",
+      "field_position": 132,
+      "field_length": 4
+    },
+    {
+      "record_code": "56",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "56",
+      "field_description": "Label Serial No",
+      "field_position": 3,
+      "field_length": 20
+    },
+    {
+      "record_code": "56",
+      "field_description": "Cont Serial No",
+      "field_position": 23,
+      "field_length": 20
+    },
+    {
+      "record_code": "56",
+      "field_description": "Non Modular Cont",
+      "field_position": 43,
+      "field_length": 20
+    },
+    {
+      "record_code": "56",
+      "field_description": "Release No",
+      "field_position": 63,
+      "field_length": 20
+    },
+    {
+      "record_code": "56",
+      "field_description": "Cust Order No",
+      "field_position": 83,
+      "field_length": 20
+    },
+    {
+      "record_code": "56",
+      "field_description": "Cust Ref No",
+      "field_position": 103,
+      "field_length": 20
+    },
+    {
+      "record_code": "56",
+      "field_description": "Qty Shipped",
+      "field_position": 123,
+      "field_length": 10
+    },
+    {
+      "record_code": "56",
+      "field_description": "Qty Uom",
+      "field_position": 133,
+      "field_length": 4
+    },
+    {
+      "record_code": "56",
+      "field_description": "Cum Qty Shipped",
+      "field_position": 137,
+      "field_length": 10
+    },
+    {
+      "record_code": "70",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "70",
+      "field_description": "Cont Type",
+      "field_position": 3,
+      "field_length": 5
+    },
+    {
+      "record_code": "70",
+      "field_description": "Numb of Cont",
+      "field_position": 8,
+      "field_length": 7
+    },
+    {
+      "record_code": "70",
+      "field_description": "Units per Cont",
+      "field_position": 15,
+      "field_length": 10
+    },
+    {
+      "record_code": "70",
+      "field_description": "Cont Desc",
+      "field_position": 25,
+      "field_length": 30
+    },
+    {
+      "record_code": "70",
+      "field_description": "Weight         ",
+      "field_position": 55,
+      "field_length": 10
+    },
+    {
+      "record_code": "70",
+      "field_description": "Weight Uom     ",
+      "field_position": 65,
+      "field_length": 4
+    },
+    {
+      "record_code": "70",
+      "field_description": "Length         ",
+      "field_position": 69,
+      "field_length": 10
+    },
+    {
+      "record_code": "70",
+      "field_description": "Width          ",
+      "field_position": 79,
+      "field_length": 10
+    },
+    {
+      "record_code": "70",
+      "field_description": "Height         ",
+      "field_position": 89,
+      "field_length": 10
+    },
+    {
+      "record_code": "70",
+      "field_description": "Size Uom       ",
+      "field_position": 99,
+      "field_length": 4
+    },
+    {
+      "record_code": "80",
+      "field_description": "RECORD TYPE INDICATOR",
+      "field_position": 1,
+      "field_length": 2
+    },
+    {
+      "record_code": "80",
+      "field_description": "No HL or LIN",
+      "field_position": 3,
+      "field_length": 6
+    },
+    {
+      "record_code": "80",
+      "field_description": "Total Line Qtys",
+      "field_position": 9,
+      "field_length": 10
+    }
+  ],
+  "records": [
+    {
+      "record_code": "CT",
+      "RECORD TYPE INDICATOR (\"CT\")": "CT",
+      "Record Key (10-digit integer)": "22907467",
+      "ISA Sender ID Qualifier": "01",
+      "ISA Sender ID": "607436107M",
+      "GS Sender ID": "607436107M",
+      "ISA Control Number": "000004249",
+      "GS Functional Group ID": "SH",
+      "GS Control Number": "4249",
+      "ISA Receiver ID Qualifier": "01",
+      "ISA Receiver ID": "056826910",
+      "GS Receiver ID": "056826910",
+      "ST Control Number": "4249",
+      "ST Transaction Set ID": "856",
+      "Plant ID Code Qualifier": "1",
+      "Plant ID Code": "832061845",
+      "Application System ID": "",
+      "Production/Test Flag": "P",
+      "Type (T=Toll; M=Margin; D=Direct Ship)": "M"
+    },
+    {
+      "record_code": "05",
+      "RECORD TYPE INDICATOR": "05",
+      "Purpose Code": "00",
+      "ASN Number": "S1579020",
+      "ASN Date": "20250501",
+      "ASN Time": "0000",
+      "Shipment Date": "20250501",
+      "Shipment Time": "0000",
+      "Shipment Time Zone": "CD",
+      "Secondary Date": "",
+      "Secondary Time": "",
+      "Secondary Time Zone": "",
+      "Misc1": "",
+      "Century": "",
+      "Transaction Type": "",
+      "SCAC": "",
+      "Metric Flag": "",
+      "Shipment Level UOM": "",
+      "Order Level UOM": "",
+      "Item Level UOM": "",
+      "Equipment Description Code": "",
+      "Daylight Savings Time Flag": ""
+    },
+    {
+      "record_code": "10",
+      "RECORD TYPE INDICATOR": "10",
+      "Ship HL ID": "1",
+      "HL Parent ID": "",
+      "HL Level Code": "S",
+      "HL Child Code": "",
+      "Supplier ID": "607436107",
+      "Ship From ID": "607436107",
+      "Ship To ID": "832061845",
+      "Consign Ship To": "",
+      "Issuer BillTo": "",
+      "Dock Code": "",
+      "Packing Slip": "",
+      "Bill of Lading": "S1579020",
+      "Freight Bill": "",
+      "Air Bill": "",
+      "Gross Wt Ref ID": "",
+      "Gross Weight": "191062",
+      "Gross Wt UM": "LB",
+      "Net Wt Ref ID": "",
+      "Net Weight": "0000191062",
+      "Net Wt UM": "LB",
+      "Equipment Code": "TL",
+      "Equip SCAC Code": "",
+      "Conveyance No": "HS  003544",
+      "Payment Method": "PP",
+      "Trans Terms Cde": "",
+      "Location Qual": "",
+      "Excess Chg Cde": "",
+      "Excess Chg Resp": "",
+      "Excess Auth No": "",
+      "Currency Cde": "",
+      "Handling Charge": "",
+      "Seal No1": "",
+      "Seal No2": "",
+      "Seal No3": "",
+      "Seal No4": "",
+      "Mst Bill Lading": "",
+      "Ship Auth No": "",
+      "Release No": "",
+      "Plant Code": "",
+      "Pro Invoice No": "",
+      "Tare Wt Ref ID": "",
+      "Tare Weight": "",
+      "Tare Wt UM": "",
+      "Equip Own Code": "",
+      "Total Qty Ship": "",
+      "Dealer No": "",
+      "Dealer Order No": "",
+      "FOB": "",
+      "Current Exf Seq": "",
+      "Domain": "",
+      "Total Piece Count": "",
+      "Count of Combined BOLs": "",
+      "Responsible Party Alpha Code": "",
+      "Responsible Party Number Code": "",
+      "Alt UM Gross Weight": "",
+      "Alt UM (for Gross Weight)": "",
+      "Alt UM Net Weight": "",
+      "Alt UM (for Net Weight)": "",
+      "Alt UM Tare Weight": "",
+      "Alt UM (for Tare Weight)": "",
+      "Combined Load Total Tag Count": "",
+      "Combined Load Total Weight": "",
+      "Combined Load Total Weight UM": "",
+      "Combined Load Total Piece Count": "",
+      "Load Number": "",
+      "Pieces in BOL (Y/N)": "",
+      "CUSN Shipment Seq# for the Day": "",
+      "CUSN Shipment Seq# for the Month": "",
+      "XREF Shipment Seq# for the Day": "",
+      "XREF Shipment Seq# for the Month": "",
+      "Mill Order Number": "",
+      "Owner's ID": "",
+      "Manufacturer ID": ""
+    },
+    {
+      "record_code": "11",
+      "RECORD TYPE INDICATOR": "11",
+      "AddressTypeCode": "ST",
+      "AddressNo": "832061845",
+      "Name": "",
+      "Line1": "",
+      "Line2": "",
+      "Line3": "",
+      "City": "",
+      "State": "",
+      "ZipCode": "",
+      "CountryCode": "",
+      "Country  ": "",
+      "ContactName": "",
+      "ContactPhone": "",
+      "ContactFax": "",
+      "ContactEmail": "",
+      "Address ID Qualifier": "1"
+    },
+    {
+      "record_code": "11",
+      "RECORD TYPE INDICATOR": "11",
+      "AddressTypeCode": "OU",
+      "AddressNo": "832061845",
+      "Name": "",
+      "Line1": "",
+      "Line2": "",
+      "Line3": "",
+      "City": "",
+      "State": "",
+      "ZipCode": "",
+      "CountryCode": "",
+      "Country  ": "",
+      "ContactName": "",
+      "ContactPhone": "",
+      "ContactFax": "",
+      "ContactEmail": "",
+      "Address ID Qualifier": "1"
+    },
+    {
+      "record_code": "11",
+      "RECORD TYPE INDICATOR": "11",
+      "AddressTypeCode": "SU",
+      "AddressNo": "607436107",
+      "Name": "",
+      "Line1": "",
+      "Line2": "",
+      "Line3": "",
+      "City": "",
+      "State": "",
+      "ZipCode": "",
+      "CountryCode": "",
+      "Country  ": "",
+      "ContactName": "",
+      "ContactPhone": "",
+      "ContactFax": "",
+      "ContactEmail": "",
+      "Address ID Qualifier": "1"
+    },
+    {
+      "record_code": "11",
+      "RECORD TYPE INDICATOR": "11",
+      "AddressTypeCode": "SF",
+      "AddressNo": "607436107",
+      "Name": "",
+      "Line1": "",
+      "Line2": "",
+      "Line3": "",
+      "City": "",
+      "State": "",
+      "ZipCode": "",
+      "CountryCode": "",
+      "Country  ": "",
+      "ContactName": "",
+      "ContactPhone": "",
+      "ContactFax": "",
+      "ContactEmail": "",
+      "Address ID Qualifier": "1"
+    },
+    {
+      "record_code": "12",
+      "RECORD TYPE INDICATOR": "12",
+      "Container Type": "COL52",
+      "Number of Containers": "5",
+      "Units per Container": "",
+      "Container Desc": "",
+      "Weight Qual": "N",
+      "Weight": "191062",
+      "Weight Uom": "LB",
+      "Combined Load Total Tag Count": "",
+      "Combined Load Total Weight": "",
+      "Combined Load Total Weight UM": "",
+      "Combined Load Total Piece Count": ""
+    },
+    {
+      "record_code": "12",
+      "RECORD TYPE INDICATOR": "12",
+      "Container Type": "COL52",
+      "Number of Containers": "5",
+      "Units per Container": "",
+      "Container Desc": "",
+      "Weight Qual": "G",
+      "Weight": "191062",
+      "Weight Uom": "LB",
+      "Combined Load Total Tag Count": "",
+      "Combined Load Total Weight": "",
+      "Combined Load Total Weight UM": "",
+      "Combined Load Total Piece Count": ""
+    },
+    {
+      "record_code": "14",
+      "RECORD TYPE INDICATOR": "14",
+      "Route Seq Code": "O",
+      "SCAC Code": "KCS",
+      "Transport Method": "R",
+      "Transport Route": "KANSAS CITY SOUTHERN",
+      "Location Qual": "",
+      "Location ID": "",
+      "Spec Hand Code": "",
+      "Hazd Mat Code": "",
+      "Hazd Mat Class": "",
+      "Hazd Mat Desc": "",
+      "Shipment/Order Status Code": "CL"
+    },
+    {
+      "record_code": "30",
+      "RECORD TYPE INDICATOR": "30",
+      "Order HL ID": "2",
+      "HL Parent ID": "1",
+      "HL Level Code": "O",
+      "HL Child Code": "1",
+      "Line Item No": "",
+      "Part Qualifier": "BP",
+      "Customer Part No": "DDS-032NOM-M",
+      "PO No": "SW-316-ET",
+      "PO Date": "",
+      "Net Qty Shipped": "0000079936",
+      "Qty UOM": "01",
+      "Cum Qty Shipped": "",
+      "Alt Part Qual": "",
+      "Alt Part No": "",
+      "Model Year": "",
+      "Qty Ordered": "",
+      "Qty Ordered UOM": "",
+      "Release No": "",
+      "Contract No": "",
+      "Packing Slip No": "",
+      "Bill Lading No": "S1579020",
+      "Ship To": "832061845",
+      "Final Dest": "",
+      "Dock Code": "",
+      "Excess Chg Code": "",
+      "Excess Chg Resp": "",
+      "Excess Auth No": "",
+      "Excess Amount": "",
+      "Engineering Change No": "",
+      "Mill Order Number": "593824",
+      "Mill Order Line": "",
+      "Customer PO Release Number": "",
+      "Customer PO Line Number": "1",
+      "Ultimate Customer PO Number": "",
+      "Order Total Pieces": "",
+      "Order Total Weight (LB)": "",
+      "Order Total Weight (KG)": "",
+      "Pieces in Detail (Y/N)": "",
+      "Prior Cumulative Piece Count": "",
+      "Prior Cumulative Weight (LB)": "",
+      "Prior Cumulative Weight (KG)": "",
+      "New Cumulative Piece Count": "",
+      "New Cumulative Weight (LB)": "",
+      "New Cumulative Weight (KG)": "",
+      "Change Order Sequence Number": "",
+      "Special Data 1": "",
+      "Special Data 2": "",
+      "Responsible Party Alpha Code": "",
+      "Responsible Party Number Code": "",
+      "Override Part Number": "",
+      "Override Customer PO#": "",
+      "Override Supplier ID": "",
+      "Ship-To Customer PO#": "",
+      "Ship-To Customer PO Line#": "",
+      "Cust PO# (Shop)": "",
+      "Cust Release# (Shop)": "",
+      "Cust Release# (Mtl Rls)": "",
+      "REF*PO from Inb856 (to be sent back)": "",
+      "Part Description (Shop)": "",
+      "Internal (Shop) Order Number": "",
+      "Part Total Pieces": "",
+      "Part Total Weight (LB)": "",
+      "Part Total Weight (KG)": "",
+      "(I830-PS) Purchase Order#": "",
+      "(I830-PS) Purchase Order Line#": "",
+      "(I830-PS) Release#": "",
+      "(I830-PS) Engineering Change#": "",
+      "(I830-PS) MSA#": "",
+      "(I830-PS) Create Date": "",
+      "(I830-PS) Create Time": "",
+      "(I862-SS) Purchase Order#": "",
+      "(I862-SS) Purchase Order Line#": "",
+      "(I862-SS) Release#": "",
+      "(I862-SS) Engineering Change#": "",
+      "(I862-SS) MSA#": "",
+      "(I862-SS) Company Part#": "",
+      "(I862-SS) Returnable Container#": "",
+      "(I862-SS) HES Code": "",
+      "(I862-SS) Prev Customer Reference": "",
+      "(I862-SS) Create Date": "",
+      "(I862-SS) Create Time": "",
+      "(I830-PS) Delivery Order Number": "",
+      "(I862-SS) Delivery Order Number": "",
+      "Commodity Code": "",
+      "Sold-To Customer PO# (from Mtl rls file)": "",
+      "Sold-To PO Line# (from Mtl rls file)": "",
+      "Country of origin (cast)": "",
+      "Primary Country of Smelt": "",
+      "Secondary Country of Smelt": "",
+      "(I862-SS) Bill of Lading I862 REF*BM": "",
+      "(I862-SS) Delivery reference number": ""
+    },
+    {
+      "record_code": "40",
+      "RECORD TYPE INDICATOR": "40",
+      "Item HL ID": "3",
+      "HL Parent ID": "2",
+      "HL Level Code": "I",
+      "HL Child Code": "",
+      "Line No": "",
+      "Mill Coil Number Qual": "SN",
+      "Mill Coil Number": "25T579004-1",
+      "Heat Number Qual": "HN",
+      "Heat Number": "A504973",
+      "Grade Code Qual": "",
+      "Grade Code": "",
+      "Previous/Processor Tag Nbr Qual": "",
+      "Previous/Processor Tag Nbr": "",
+      "Part Qual5": "",
+      "Part Number5": "",
+      "Net Qty Ship": "",
+      "Qty UOM": "",
+      "Cum Qty Ship": "",
+      "PO No": "",
+      "PO Date": "",
+      "PO Line No": "1",
+      "No of Inner Packs": "",
+      "Units per Ipack": "",
+      "Inner Pack UOM": "",
+      "Packing Slip No": "",
+      "Release No": "",
+      "Bill Wt Ref ID": "WT",
+      "Billed Weight": "39628",
+      "Billed Wt UM": "24",
+      "Gross Wt Ref ID": "",
+      "Gross Weight": "",
+      "Gross Wt UM": "",
+      "Net Wt Ref ID": "",
+      "Net Weight": "",
+      "Net Wt UM": "",
+      "Buyer Code": "",
+      "Qty Ordered": "",
+      "Qty Ordered UM": "",
+      "Dock Code": "",
+      "Invoice No": "",
+      "Model Year": "",
+      "Part Description": "",
+      "Cum Qty Start": "",
+      "Container Type Code": "",
+      "Material Classification (AISI table 67)": "01",
+      "Material Status - QA (AISI table 68)": "",
+      "Material Status (AISI table 70)": "7",
+      "Edge Designation (AISI table 22)": "",
+      "Matl Specification Application Nbr": "",
+      "(STTX) Tag Type": "",
+      "(STTX) Tag Number": "",
+      "RAN Number": "",
+      "RAN Release Number": "",
+      "Kanban Number": "",
+      "Prior Cumulative Piece Count": "",
+      "Prior Cumulative Weight (LB)": "",
+      "Prior Cumulative Weight (KG)": "",
+      "New Cumulative Piece Count": "",
+      "New Cumulative Weight (LB)": "",
+      "New Cumulative Weight (KG)": "",
+      "Change Order Sequence Number": "",
+      "Cust PO# (Bundle Tag/FG Override)": "",
+      "Cust Rls# (Bundle Tag/FG Override)": "",
+      "Mill Create Date": "",
+      "Original Shipper's BOL Nbr": "",
+      "(STTX) Production Number": "",
+      "Serial Build FG Tag ID": "",
+      "Source Mill": "",
+      "Original I856 Gauge (IN)": "",
+      "Original I856 Gauge (MM)": "",
+      "Original I856 Gauge Type": "",
+      "Item Mill Order Number": "",
+      "Price/CWT Adjust": "",
+      "Heat Treat (Cash) Date": "",
+      "Lube Application Date": "",
+      "Bake Hardening Date": "",
+      "Consumed Coil ID": "",
+      "License Plate Number ": "",
+      "Temper": "",
+      "Customer tag number ": "",
+      "Load Planning From INB 860/850": "",
+      "Release# from INB 860/850": "",
+      "PO Date from INB 860/850": "",
+      "Line# from INB 860/850": "",
+      "Part# from INB 860/850": "",
+      "Alternate Part# from INB 860/850": "",
+      "Country of origin (cast)": "",
+      "Primary Country of Smelt": "",
+      "Secondary Country of Smelt": ""
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "WT",
+      "Measurement Qualifier": "WT",
+      "Measurement Flag": "",
+      "Measurement Value": "39628",
+      "Measurement UOM": "01"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "WT",
+      "Measurement Qualifier": "WT",
+      "Measurement Flag": "",
+      "Measurement Value": "39628",
+      "Measurement UOM": "24"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "PD",
+      "Measurement Qualifier": "TH",
+      "Measurement Flag": "",
+      "Measurement Value": ".0315",
+      "Measurement UOM": "ED"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "PD",
+      "Measurement Qualifier": "WD",
+      "Measurement Flag": "",
+      "Measurement Value": "55.1250",
+      "Measurement UOM": "ED"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "PD",
+      "Measurement Qualifier": "LN",
+      "Measurement Flag": "",
+      "Measurement Value": "6712",
+      "Measurement UOM": "LF"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZC",
+      "Measurement Flag": "",
+      "Measurement Value": ".0300",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZMN",
+      "Measurement Flag": "",
+      "Measurement Value": ".1700",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZP",
+      "Measurement Flag": "",
+      "Measurement Value": ".0080",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZS",
+      "Measurement Flag": "",
+      "Measurement Value": ".0020",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZSI",
+      "Measurement Flag": "",
+      "Measurement Value": ".0300",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZCU",
+      "Measurement Flag": "",
+      "Measurement Value": ".1200",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZNI",
+      "Measurement Flag": "",
+      "Measurement Value": ".0400",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZCR",
+      "Measurement Flag": "",
+      "Measurement Value": ".0600",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZMO",
+      "Measurement Flag": "",
+      "Measurement Value": ".0100",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZSN",
+      "Measurement Flag": "",
+      "Measurement Value": ".0030",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZAL",
+      "Measurement Flag": "",
+      "Measurement Value": ".0390",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZN",
+      "Measurement Flag": "",
+      "Measurement Value": ".0075",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZV",
+      "Measurement Flag": "",
+      "Measurement Value": "",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZB",
+      "Measurement Flag": "",
+      "Measurement Value": ".0001",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZTI",
+      "Measurement Flag": "",
+      "Measurement Value": ".0010",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZNB",
+      "Measurement Flag": "",
+      "Measurement Value": ".0010",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZSB",
+      "Measurement Flag": "",
+      "Measurement Value": ".0024",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZCA",
+      "Measurement Flag": "",
+      "Measurement Value": ".0023",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZCE",
+      "Measurement Flag": "",
+      "Measurement Value": ".0900",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "40",
+      "RECORD TYPE INDICATOR": "40",
+      "Item HL ID": "4",
+      "HL Parent ID": "2",
+      "HL Level Code": "I",
+      "HL Child Code": "",
+      "Line No": "",
+      "Mill Coil Number Qual": "SN",
+      "Mill Coil Number": "25T579007-1",
+      "Heat Number Qual": "HN",
+      "Heat Number": "A504973",
+      "Grade Code Qual": "",
+      "Grade Code": "",
+      "Previous/Processor Tag Nbr Qual": "",
+      "Previous/Processor Tag Nbr": "",
+      "Part Qual5": "",
+      "Part Number5": "",
+      "Net Qty Ship": "",
+      "Qty UOM": "",
+      "Cum Qty Ship": "",
+      "PO No": "",
+      "PO Date": "",
+      "PO Line No": "1",
+      "No of Inner Packs": "",
+      "Units per Ipack": "",
+      "Inner Pack UOM": "",
+      "Packing Slip No": "",
+      "Release No": "",
+      "Bill Wt Ref ID": "WT",
+      "Billed Weight": "40308",
+      "Billed Wt UM": "24",
+      "Gross Wt Ref ID": "",
+      "Gross Weight": "",
+      "Gross Wt UM": "",
+      "Net Wt Ref ID": "",
+      "Net Weight": "",
+      "Net Wt UM": "",
+      "Buyer Code": "",
+      "Qty Ordered": "",
+      "Qty Ordered UM": "",
+      "Dock Code": "",
+      "Invoice No": "",
+      "Model Year": "",
+      "Part Description": "",
+      "Cum Qty Start": "",
+      "Container Type Code": "",
+      "Material Classification (AISI table 67)": "01",
+      "Material Status - QA (AISI table 68)": "",
+      "Material Status (AISI table 70)": "7",
+      "Edge Designation (AISI table 22)": "",
+      "Matl Specification Application Nbr": "",
+      "(STTX) Tag Type": "",
+      "(STTX) Tag Number": "",
+      "RAN Number": "",
+      "RAN Release Number": "",
+      "Kanban Number": "",
+      "Prior Cumulative Piece Count": "",
+      "Prior Cumulative Weight (LB)": "",
+      "Prior Cumulative Weight (KG)": "",
+      "New Cumulative Piece Count": "",
+      "New Cumulative Weight (LB)": "",
+      "New Cumulative Weight (KG)": "",
+      "Change Order Sequence Number": "",
+      "Cust PO# (Bundle Tag/FG Override)": "",
+      "Cust Rls# (Bundle Tag/FG Override)": "",
+      "Mill Create Date": "",
+      "Original Shipper's BOL Nbr": "",
+      "(STTX) Production Number": "",
+      "Serial Build FG Tag ID": "",
+      "Source Mill": "",
+      "Original I856 Gauge (IN)": "",
+      "Original I856 Gauge (MM)": "",
+      "Original I856 Gauge Type": "",
+      "Item Mill Order Number": "",
+      "Price/CWT Adjust": "",
+      "Heat Treat (Cash) Date": "",
+      "Lube Application Date": "",
+      "Bake Hardening Date": "",
+      "Consumed Coil ID": "",
+      "License Plate Number ": "",
+      "Temper": "",
+      "Customer tag number ": "",
+      "Load Planning From INB 860/850": "",
+      "Release# from INB 860/850": "",
+      "PO Date from INB 860/850": "",
+      "Line# from INB 860/850": "",
+      "Part# from INB 860/850": "",
+      "Alternate Part# from INB 860/850": "",
+      "Country of origin (cast)": "",
+      "Primary Country of Smelt": "",
+      "Secondary Country of Smelt": ""
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "WT",
+      "Measurement Qualifier": "WT",
+      "Measurement Flag": "",
+      "Measurement Value": "40308",
+      "Measurement UOM": "01"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "WT",
+      "Measurement Qualifier": "WT",
+      "Measurement Flag": "",
+      "Measurement Value": "40308",
+      "Measurement UOM": "24"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "PD",
+      "Measurement Qualifier": "TH",
+      "Measurement Flag": "",
+      "Measurement Value": ".0310",
+      "Measurement UOM": "ED"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "PD",
+      "Measurement Qualifier": "WD",
+      "Measurement Flag": "",
+      "Measurement Value": "55.1250",
+      "Measurement UOM": "ED"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "PD",
+      "Measurement Qualifier": "LN",
+      "Measurement Flag": "",
+      "Measurement Value": "6937",
+      "Measurement UOM": "LF"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZC",
+      "Measurement Flag": "",
+      "Measurement Value": ".0300",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZMN",
+      "Measurement Flag": "",
+      "Measurement Value": ".1700",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZP",
+      "Measurement Flag": "",
+      "Measurement Value": ".0080",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZS",
+      "Measurement Flag": "",
+      "Measurement Value": ".0020",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZSI",
+      "Measurement Flag": "",
+      "Measurement Value": ".0300",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZCU",
+      "Measurement Flag": "",
+      "Measurement Value": ".1200",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZNI",
+      "Measurement Flag": "",
+      "Measurement Value": ".0400",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZCR",
+      "Measurement Flag": "",
+      "Measurement Value": ".0600",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZMO",
+      "Measurement Flag": "",
+      "Measurement Value": ".0100",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZSN",
+      "Measurement Flag": "",
+      "Measurement Value": ".0030",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZAL",
+      "Measurement Flag": "",
+      "Measurement Value": ".0390",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZN",
+      "Measurement Flag": "",
+      "Measurement Value": ".0075",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZV",
+      "Measurement Flag": "",
+      "Measurement Value": "",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZB",
+      "Measurement Flag": "",
+      "Measurement Value": ".0001",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZTI",
+      "Measurement Flag": "",
+      "Measurement Value": ".0010",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZNB",
+      "Measurement Flag": "",
+      "Measurement Value": ".0010",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZSB",
+      "Measurement Flag": "",
+      "Measurement Value": ".0024",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZCA",
+      "Measurement Flag": "",
+      "Measurement Value": ".0023",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "49",
+      "RECORD TYPE INDICATOR": "49",
+      "Measurement Reference": "CH",
+      "Measurement Qualifier": "ZCE",
+      "Measurement Flag": "",
+      "Measurement Value": ".0900",
+      "Measurement UOM": "P1"
+    },
+    {
+      "record_code": "80",
+      "RECORD TYPE INDICATOR": "80",
+      "No HL or LIN": "9",
+      "Total Line Qtys": ""
+    }
+  ]
+}
