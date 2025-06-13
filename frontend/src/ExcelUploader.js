@@ -12,20 +12,50 @@ function ExcelUploader() {
   const handleLayoutChange = (e) => setLayoutFile(e.target.files[0]);
   const handleFlatFileChange = (e) => setFlatFile(e.target.files[0]);
 
+
+  const [file, setFile] = useState(null);
+
+  const handleChange = (e) => setFile(e.target.files[0]);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!file) return;
+    const formData = new FormData();
+    formData.append('excel', file);
+
+    const res = await fetch('http://localhost:5000/upload-excel', {
+      method: 'POST',
+      body: formData,
+    });
+    const data = await res.json();
+    alert(data.message || 'Upload complete');
+  };
+
+
+
+
   const handleUpload = async () => {
-    if (!layoutFile || !flatFile) {
+    if (!flatFile) {
       alert('Please upload both layout and flat files.');
       return;
     }
 
     const formData = new FormData();
-    formData.append('layout', layoutFile);
     formData.append('flatfile', flatFile);
 
     try {
-      const res = await axios.post('http://localhost:5000/upload', formData);
-      setParsedData(res.data.parsed);
-      setLayout(res.data.layout);
+      // Tell axios to expect a blob!
+      const res = await axios.post('http://localhost:5000/upload', formData, {
+        responseType: 'blob'
+      });
+      const url = window.URL.createObjectURL(res.data);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', flatFile.name.replace(/\.[^/.]+$/, ".json")); // Use flat file name with .json extension
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.URL.revokeObjectURL(url);
     } catch (err) {
       console.error('Upload failed', err);
       alert('Upload failed. Check console for details.');
@@ -112,6 +142,10 @@ function ExcelUploader() {
       <button onClick={() => downloadFile(parsedData, 'csv')}>Download CSV</button>
       <button onClick={downloadStructuredJSON}>Download Structured JSON</button>
       <button onClick={downloadTrafficCopExcel}>Download Traffic Cop Excel</button>
+      <form onSubmit={handleSubmit}>
+      <input type="file" accept=".xlsx,.xls" onChange={handleChange} />
+      <button type="submit">Upload Excel</button>
+      </form>
 
       {parsedData.length > 0 && (() => {
         const allKeys = Array.from(new Set(parsedData.flatMap(row => Object.keys(row))));
